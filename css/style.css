@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-image: url(starry-bg.jpg)
+}
+
+header,
+section,
+footer {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    width: 100%;
+}
+
+div {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#top {
+    padding-top: 270px;
+    padding-bottom: 210px;
+    color: white;
+    background-image: linear-gradient(90deg, rgba(87, 7, 87, 0.41) 100%, white), url(starry-bg.jpg);
+    background-blend-mode: screen, normal;
+
+
+}
+
+#top h1 {
+    line-height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+
+}
+
+
+#top h1 a {
+    font-weight: normal;
+    
+
+}
+
+#top a {
+/*    font-family: 'Damion', cursive;*/
+    font-family: 'Eagle Lake', cursive;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 5px red;
+
+}
+
+#top a:hover {
+    text-decoration: underline;
+}
+
+#top nav {
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#top nav ul {
+    list-style: none;
+}
+
+#top nav li {
+    display: inline;
+    margin-left: 50px;
+}
+
+#top h2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 80px;
+    font-family: 'Eagle Lake', cursive;
+
+}
+
+#top h2:hover {
+    text-shadow: 0px 0px 30px #c2b225;
+    transition: 0.5s;
+
+}
+
+#top p {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+    table-layout: fixed;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#objects {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+#objects h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Eagle Lake', cursive;
+}
+
+#objects h2:hover {
+    text-shadow: 0px 0px 30px #c2b225;
+}
+
+
+section h3,
+p {
+    color: white;
+}
+
+section {
+    width: 1600px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+
+}
+
+section h3 {
+    font-size: 30px;
+    font-family: 'Eagle Lake', cursive;
+
+}
+
+section p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.75;
+}
+
+section h3::after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 4px;
+    background-color: white;
+    margin: 5px auto;
+
+}
+
+section figure {
+    display: table-cell;
+    width: auto;
+}
+
+
+#ring {
+    overflow: hidden;
+    background-image: linear-gradient(#6298a1, white), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+}
+#ring img {
+   transition: 3s;
+}
+#ring img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( 15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 100% )
+saturate( 200% );
+
+}
+
+#ring figure {
+    position: relative;
+    float: left;
+    display: table-cell;
+    width: 400px;
+
+}
+
+#ring h3 {
+
+    margin-left: 400px;
+    width: 400px;
+}
+
+#ring p {
+    display: table-cell;
+    width: 800px;
+    padding-top: 50px;
+
+
+}
+
+#mist {
+    overflow: hidden;
+    background-image: linear-gradient(180deg, white, #b05aff), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#mist figure {
+    float: right;
+    right: 0%;
+}
+
+#mist img {
+    width: auto;
+    height: 400px;
+     transition: 3s;
+
+}
+
+#mist img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( 15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 100% )
+saturate( 200% );
+
+}
+
+#mist h3 {
+    width: 400px;
+}
+
+#mist p {
+    display: table-cell;
+    width: 800px;
+    padding-top: 50px;
+
+}
+
+#necklace {
+    background-image: linear-gradient(180deg, #c2ff5a, white), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    overflow: hidden;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+#necklace img {
+    transition: 3s;
+}
+
+#necklace img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( -15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 100% )
+saturate( 200% );
+
+}
+
+
+#necklace figure {
+    position: relative;
+    float: left;
+    display: table-cell;
+    width: 400px;
+}
+
+#necklace h3 {
+    margin-left: 400px;
+    width: 400px;
+
+}
+
+#necklace p {
+    display: table-cell;
+    width: 800px;
+    padding-top: 50px;
+
+}
+
+
+#tape {
+    overflow: hidden;
+    background-image: linear-gradient(180deg, white, #5a83ff), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#tape figure {
+    float: right;
+    right: 0%;
+}
+
+
+#tape img {
+    width: auto;
+    height: 400px;
+     transition: 3s;
+
+}
+
+
+#tape img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( 15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 100% )
+saturate( 100% );
+
+}
+
+#tape h3 {
+    width: 400px;
+}
+
+#tape p {
+    display: table-cell;
+    width: 800px;
+    padding-top: 50px;
+}
+
+#elixir {
+    background-image: linear-gradient(180deg, rgba(218, 58, 85, 0.8), white), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    overflow: hidden;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#elixir figure {
+    position: relative;
+    float: left;
+    display: table-cell;
+    width: 400px;
+}
+
+#elixir p {
+    display: table-cell;
+    width: 800px;
+    padding-top: 50px
+}
+
+#elixir h3 {
+    margin-left: 400px;
+    width: 300px;
+
+}
+
+#elixir img {
+    width: auto;
+    height: 400px;
+     transition: 3s;
+}
+#elixir img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( -15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 100% )
+saturate( 200% );
+
+}
+
+#candle {
+    overflow: hidden;
+
+    background-image: linear-gradient(180deg, white, #dcaa2c), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+
+#candle figure {
+    float: right;
+    right: 0%;
+}
+#candle img{
+    transition: 3s;
+}
+
+#candle img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( 15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 100% )
+saturate( 100% );
+
+}
+
+#candle h3 {
+    width: 400px;
+    height: auto;
+}
+
+#candle p {
+    display: table-cell;
+    width: 800px;
+    padding-top: 50px;
+}
+
+#doll {
+    overflow: hidden;
+    background-image: linear-gradient(#4efddf 20%, white), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    overflow: hidden;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#doll figure {
+    position: relative;
+    float: left;
+    display: table-cell;
+    width: 400px;
+}
+#doll img{
+    transition: 3s;
+}
+
+#doll img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( -15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 150% )
+saturate( 100% );
+
+}
+
+#doll h3 {
+    width: 400px;
+    margin-left: 400px;
+}
+
+#doll p {
+    display: table-cell;
+    width: 800px;
+    padding-top: 50px;
+
+}
+
+#pen {
+    overflow: hidden;
+    background-image: linear-gradient(180deg, white 100px, #4f0d39), url(starry-bg.jpg), url(background-black.jpg);
+    background-blend-mode: overlay, exclusion;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+#pen figure {
+    float: right;
+    right: 0%;
+}
+
+#pen img{
+    transition: 3s;
+}
+
+#pen img:hover {
+transition: 1s ease-out;
+transform: scale( 1.25 ) rotate( 15deg );
+    filter: grayscale( 0% ) blur( 0px ) brightness( 150% )
+saturate( 200% );
+
+}
+
+#pen h3 {
+    width: 400px;
+}
+
+#pen p {
+
+    width: 800px;
+    padding-top: 50px;
+}
+
+footer div {
+    background-position: center;
+    background-size: auto;
+}
+
+#about {
+    width: 1600px;
+    margin: 0px auto;
+    border-top-style: solid;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+
+
+
+}
+
+#about h3 {
+    color: white;
+    font-size: 40px;
+}
+
+#about p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.author {
+    display: table-cell;
+    width: 400px;
+    text-align: left;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 30px;
+
+}
+
+.author::before {
+    content: "";
+    display: block;
+    width: 245px;
+    height: 4px;
+    background-color: white;
+    margin: 0px 0px;
+}
+
+.author::after {
+    content: "";
+    display: block;
+    width: 245px;
+    height: 4px;
+    background-color: white;
+    margin: 0px 0px;
+}
+
+.description {
+    display: table-cell;
+    width: 800px;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#about a {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+
+}
